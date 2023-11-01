@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="section1">
+        <h1>Input your name:</h1>
+        <form class="form1">
+            <label for="firstName">First Name:</label>
+            <input type="text" name="" id="firstName" class="form1" placeholder="First Name">
+            <label for="middleName">Middle Name:</label>
+            <input type="text" name="" id="middleName" class="form1" placeholder="Middle Name">
+            <label for="lastName">First Name:</label>
+            <input type="text" name="" id="lastName" class="form1" placeholder="Last Name">
+            <button type="button" id="check">Check</button>
+        </form>
+        
+        <h3 id="placeToSee" class="hidden"></h3>
+        <div id="buttonRC">
+            <button type="button" id="retry" class="hidden" onclick="window.location.reload();">Retry</button>
+            <button type="button" id="continue" class="hidden">Continue</button>
+        </div>
+    </section>
+
+    <section id="section2" class="hidden">
+        <h1 id="nameHere"></h1>
+        <section>
+            <button type="button" id="showLetter" class="hidden">Show Letter</button>
+        </section>
+        <h3 id="letterHere" class="hidden"></h3>
+    </section>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
